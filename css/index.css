@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Halant');
+
+body {
+  background-color: #f2c1c1;
+}
+
+h1 {
+  text-align: center;
+  color: #d10e25;
+  padding: 10px 40px;
+  font-size: 72px;
+  text-shadow: #750e1a 5px 5px 4px;
+  font-family: 'Cinzel', serif;
+}
+
+h2 {
+  text-align: center;
+  color: #33090e;
+  font-size: 60px;
+}
+
+.text {
+  border: 2px solid red;
+  /* Толщина рамки в пикселах,
+                           тип границы (в данном случае сплошная линия) и
+                           цвет линии */
+  padding: 10px;
+  /* Расстояние от текста до рамки */
+  font-family: 'Halant', serif;
+  background-color: none;
+  font-size: 35px;
+}
+
+#menu ul {
+  display: none;
+  background-color: #f90;
+  position: absolute;
+  top: 100%;
+}
+
+#menu li:hover ul {
+  display: block;
+}
+
+#menu,
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#menu {
+  height: 30px;
+  background-color: #990c0c;
+  padding-left: 25px;
+  min-width: 470px;
+}
+
+#menu li {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+
+#menu li a {
+  display: block;
+  padding: 6px;
+  width: 100px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+#menu ul li {
+  float: none;
+}
+
+#menu li:hover {
+  background-color: #f90;
+}
+
+#menu ul li:hover {
+  background-color: #666
+}
+
+.thumb img {
+  border: 2px solid #ba822e;
+  /* Рамка вокруг фотографии */
+  padding: 1px;
+  /* Расстояние от картинки до рамки */
+  background: #770712;
+  /* Цвет фона */
+  margin-right: 10px;
+  /* Отступ справа */
+  margin-bottom: 10px;
+  /* Отступ снизу */
+}
+footer {
+  background-color: #e0e810;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
