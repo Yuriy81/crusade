@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/yur.yemets@gmail.com" method="POST">
+        <fieldset>
+            <legend>Your info</legend>
+            <img src="photo/knight1.jpg" alt="knight">
+            <br>
+            <label for name="name">Your name:</label>
+            <input id="name" name="name" type="text" placeholder="Your name">
+            <br>
+            <br>
+            <label for surname="surname">Your surname:</label>
+            <input id="surname" name="surname" type="text" placeholder="Your surname">
+            <br>
+            <br>
+            <label for email="email">Your email:</label>
+            <input id="email" name="replyto" type="email" placeholder="Your email">
+            <br>
+            <br>
+            <label>Your gender:</label>
+            <label>
+                <input type="radio" name="gender" id="male" value="male">
+                Male
+                </label>
+            <label>
+                <input type="radio" name="gender" id="female" value="female">
+                Female
+                </label>
+            <br>
+            <br>
+            <label>Your religion:</label>
+            <label>
+                <input type="radio" name="religion" id="catholic" value="catholic">
+                Catholic
+                </label>
+            <label>
+                <input type="radio" name="religion" id="east orthodox" value="east orthodox">
+                East Orthodox
+                </label>
+            <label>
+                <input type="radio" name="religion" id="muslim" value="muslim">
+                Muslim
+                </label>
+            <br>
+            <br>
+            <label for="date">Your birthday:</label>
+            <input type="date" name="date" id="date">
+        </fieldset>
+        <br>
+        <br>
+        <label>How do you rate this syte?</label>
+        <input list="answer" id="question" name="style" placeholder="your choice">
+        <datalist id="answer">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+        </datalist>
+        <br>
+        <br>
+        <label>Would you like to take part in the Crusades?</label>
+        <label>
+                <input type="radio" name="take" id="yes" value="yes">
+                Yes
+                </label>
+        <label>
+               <input type="radio" name="take" id="no" value="no">
+                No
+                </label>
+        <br>
+        <br>
+        <input type="submit" value="Send">
+        <br>
+        <br>
+        <a target="_blank" href="https://en.wikipedia.org/wiki/First_Crusade">
+        Інформація взята з цього ресурсу
+    </a>
+    </form>
+    <br>
+    <br>
+    <a href="index.html" class="next">Next&raquo</a>
+    <a href="aftermath.html" class="previous">&laquoPrevious</a>
+    <br>
+    <br>
+    <footer>
+        Copyright Yuriy Yemets
+    </footer>
+</body>
+
+</html>
