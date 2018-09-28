@@ -1,15 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Halant');
 
+
 body {
   background-color: #f2c1c1;
-  max-width: 960px;
-  margin: auto;
+  max-width: 1200px;
+  
+  
+}
+header{
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 5%;
+  margin-top: 2px;
 }
 
-h1 {
+header h1{
+  
   text-align: center;
   color: #d10e25;
-  padding: 10px 40px;
   font-size: 72px;
   text-shadow: #750e1a 5px 5px 4px;
   font-family: 'Cinzel', serif;
@@ -18,7 +30,10 @@ h1 {
 h2 {
   text-align: center;
   color: #33090e;
-  font-size: 60px;
+  font-size: 40px;
+  padding: 20px;
+  margin-top: 20px;
+  
 }
 
 h3 {
@@ -26,13 +41,16 @@ h3 {
   color: #103877;
   font-size: 50px;
 }
+article {
+  display: center;
+}
 
 .text {
-  border: 2px solid red;
   padding: 10px;
   font-family: 'Halant', serif;
   background-color: inherit;
   font-size: 35px;
+  display: flex;
 }
 
 #menu ul {
@@ -87,12 +105,13 @@ h3 {
   background-color: #666
 }
 
-.thumb img {
-  border: 2px solid #ba822e;
-  padding: 1px;
+aside {
+ 
   background: #770712;
   margin-right: 10px;
   margin-bottom: 10px;
+  display: inline-block;
+  width: 100%;
 }
 
 footer {
@@ -131,4 +150,7 @@ footer {
 a:hover {
   background-color: #ddd;
   color: black;
+}
+img {
+  margin: 5px;
 }
