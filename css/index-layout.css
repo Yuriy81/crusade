@@ -1,0 +1,24 @@
+main {
+    display: flex;
+}
+@media screen and (max-width: 720px){
+    header {
+        height: 200px;
+    }
+    main {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 640px){
+    header {
+        height: 150px;
+    }
+    main {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 450px) {
+    article {
+        flex-basis: 100%;
+    }
+}

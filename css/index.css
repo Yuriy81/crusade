@@ -3,7 +3,7 @@
 
 body {
   background-color: #f2c1c1;
-  max-width: 1200px;
+  max-width: 800px;
 
 
 }
@@ -61,6 +61,7 @@ article {
   background-color: #f90;
   position: absolute;
   top: 100%;
+  font-size: 40px;
 }
 
 #menu li:hover ul {
@@ -79,6 +80,7 @@ article {
   background-color: #990c0c;
   padding-left: 25px;
   min-width: 470px;
+  
 }
 
 #menu li {
