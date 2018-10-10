@@ -11,10 +11,12 @@
 </head>
 
 <body>
-    <form action="https://formspree.io/yur.yemets@gmail.com" method="POST">
-        <fieldset>
+         <div id = "clock"></div>
+            <canvas id = "timecanvas"></canvas>
+          <form action="https://formspree.io/yur.yemets@gmail.com" method="POST">
+        <fieldset class = "quick">
             <legend>Your info</legend>
-            <img src="photo/knight1.jpg" alt="knight">
+            
             <br>
             <label for name="name">Your name:</label>
             <input id="name" name="name" type="text" placeholder="Your name">
@@ -90,13 +92,14 @@
     </form>
     <br>
     <br>
-    <a href="index.html" class="next">Next&raquo</a>
-    <a href="aftermath.html" class="previous">&laquoPrevious</a>
+    <button class="next"><a href="index.html">Next</a></button>
+    <button class="back"><a href="aftermath.html" >Back</a></button>
     <br>
     <br>
     <footer>
         Copyright Yuriy Yemets
     </footer>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
