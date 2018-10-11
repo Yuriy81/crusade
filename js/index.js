@@ -2,6 +2,7 @@ function displayCanvas() {
     let canvasHTML = document.getElementById('timecanvas');
     let contextHTML = canvasHTML.getContext('2d');
     contextHTML.strokeRect(0, 0, canvasHTML.width, canvasHTML.height);
+     
     let radiusClock = canvasHTML.width / 2 - 10;
     let xCenterClock = canvasHTML.width / 2;
     let yCenterClock = canvasHTML.height / 2;
@@ -85,3 +86,5 @@ window.setInterval(
         document.getElementById("clock").innerHTML = d.toLocaleTimeString();
         displayCanvas();
     }, 1000);
+ 
+
